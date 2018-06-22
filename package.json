@@ -1,0 +1,31 @@
+{
+  "name": "ethblocksync",
+  "version": "1.0.0",
+  "description": "block sync tool for Ethereum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libracredit/ethblocksync.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/libracredit/ethblocksync/issues"
+  },
+  "homepage": "https://github.com/libracredit/ethblocksync#readme",
+  "dependencies": {
+    "bignumber.js": "^7.0.1",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "log4js": "^2.5.3",
+    "solc": "^0.4.16",
+    "sync-request": "^6.0.0",
+    "truffle": "4.1.5",
+    "truffle-contract": "^3.0.4",
+    "truffle-hdwallet-provider": "^0.0.3",
+    "web3": "^1.0.0-beta.33"
+  }
+}
